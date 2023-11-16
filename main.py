@@ -37,7 +37,7 @@ def Settings():
                                                                                               | |    / _` | '_ \| |   | '_ \ / _` | __|
                                                                                               | |___| (_| | | | | \__/\ | | | (_| | |_ 
                                                                                               \_____/\__,_|_| |_|\____/_| |_|\__,_|\__| (settings)"""))
-    file_path = Path(r"C:\Users\Kieran\Documents\Développement\Python\Projects\pasdenom\data\userinfo.ini")
+    file_path = Path(r"data\userinfo.ini")
     
     # parse existing file
     config.read(file_path)
